@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+     fosfor:
+         image: "fosfordevops/csvgenerator:latest"
+         volumes:
+               - "/root/inputdata:/csvserver/inputdata" 
+         ports:
+               - "9393:9300"
