@@ -1,0 +1,1 @@
+docker run -d -v /root/solution/inputdata:/csvserver/inputdata -e CSVSERVER_BORDER='Orange' -p 9393:9300/tcp --name fosfor fosfordevops/csvgenerator:latest
